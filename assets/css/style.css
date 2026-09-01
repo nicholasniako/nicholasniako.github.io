@@ -75,9 +75,15 @@ h3 { font-size: 1.12rem; font-weight: 600; margin-bottom: .45rem; }
 .project-card:first-of-type { border-top: 1px solid var(--line); }
 .project-card .eyebrow { color: var(--blue); font-size: .78rem; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; }
 .project-card h2 { border: 0; padding: 0; font-size: 1.5rem; font-weight: 400; }
+.project-card h2 code { padding: 0; background: none; color: var(--blue); font: inherit; font-weight: 600; }
 .project-card p { color: var(--muted); }
 .project-findings { margin: .9rem 0 1.1rem; padding-left: 1.15rem; color: var(--muted); font-size: .92rem; }
 .project-findings li + li { margin-top: .35rem; }
+.project-meta { margin: 1.15rem 0 0; padding-top: .9rem; border-top: 1px solid #edf0f2; }
+.project-meta div { display: grid; grid-template-columns: 105px 1fr; gap: .75rem; }
+.project-meta div + div { margin-top: .35rem; }
+.project-meta dt { color: var(--navy); font-size: .8rem; font-weight: 600; }
+.project-meta dd { margin: 0; color: var(--muted); font-size: .86rem; }
 .project-status { color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; }
 .tags { display: flex; flex-wrap: wrap; gap: .45rem; }
 .tag { color: var(--navy); font-size: .76rem; font-weight: 600; }
@@ -132,6 +138,7 @@ h3 { font-size: 1.12rem; font-weight: 600; margin-bottom: .45rem; }
   .publication { grid-template-columns: 1fr; gap: 8px; }
   .project-card { grid-template-columns: 1fr; gap: .5rem; }
   .project-status { grid-row: 1; }
+  .project-meta div { grid-template-columns: 1fr; gap: .05rem; }
   .skills-strip { grid-template-columns: 1fr 1fr; }
   .timeline-item { grid-template-columns: 1fr; gap: .25rem; }
   .site-footer .shell { display: block; }
