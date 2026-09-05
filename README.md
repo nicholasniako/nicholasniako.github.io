@@ -1,5 +1,4 @@
-# Nicholas Niako — Academic Portfolio
-
+# Nicholas Niako 
 A responsive, dependency-light academic website for GitHub Pages.
 
 ## Pages
